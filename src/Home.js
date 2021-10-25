@@ -11,6 +11,8 @@ export default function Home({navigation}) {
     Sentry.captureException('Error on home ');
   }
 
+  //New code
+
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>Home</Text>
