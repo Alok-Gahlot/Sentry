@@ -8,7 +8,7 @@ export default function Home({navigation}) {
   try {
     throw new Error('error on Home Screen');
   } catch (err) {
-    Sentry.captureException('Error on home ');
+    Sentry.captureException('Error on home Checking for aman ');
   }
 
   //New code
