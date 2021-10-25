@@ -4,6 +4,11 @@ import * as Sentry from '@sentry/react-native';
 import {StyleSheet, Text, View, Button} from 'react-native';
 
 export default function Home({navigation}) {
+  try {
+    throw new Error('Checking error by alok');
+  } catch (Err) {
+    Sentry.captureException('Fetched');
+  }
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>Next Screen</Text>
