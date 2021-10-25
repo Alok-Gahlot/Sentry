@@ -5,9 +5,9 @@ import {StyleSheet, Text, View, Button} from 'react-native';
 
 export default function Home({navigation}) {
   try {
-    throw new Error('Checking error by alok 2nd');
+    throw new Error('Checking error by alok 3rd');
   } catch (Err) {
-    Sentry.captureException('Fetched 2nd');
+    Sentry.captureException('Fetched 3rd');
   }
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
