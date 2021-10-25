@@ -6,9 +6,9 @@ import * as Sentry from '@sentry/react-native';
 
 export default function Home({navigation}) {
   try {
-    throw new Error('error on Home Screen');
+    throw new Error('Generating new error');
   } catch (err) {
-    Sentry.captureException('Error on home Checking for aman ');
+    Sentry.captureException('Generating error for aman ');
   }
 
   //New code
