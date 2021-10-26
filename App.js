@@ -14,6 +14,8 @@ function App() {
       }),
     ],
     tracesSampleRate: 0.2,
+
+    enableAutoPerformanceTracking: true,
   });
 
   // throw new Error('Git check');
