@@ -19,8 +19,15 @@ function App() {
   });
 
   // throw new Error('Git check');
+  // throw new Error('Git check');
 
-  return <Navigation routingInstrumentation={routingInstrumentation} />;
+  return
+  
+ (
+  <Sentry.TouchEventBoundary>
+    <Navigation routingInstrumentation={routingInstrumentation} />
+    </Sentry.TouchEventBoundary>
+    )
 }
 
 export default Sentry.wrap(App);

@@ -24,6 +24,7 @@ export default function Home({navigation}) {
           }, 3000);
         }}
       />
+      <Text>Hello Alok Gahlot</Text>
     </View>
   );
 }
