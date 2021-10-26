@@ -18,16 +18,10 @@ function App() {
     enableAutoPerformanceTracking: true,
   });
 
-  // throw new Error('Git check');
+  throw new Error('Git check Alok');
   // throw new Error('Git check');
 
-  return
-  
- (
-  <Sentry.TouchEventBoundary>
-    <Navigation routingInstrumentation={routingInstrumentation} />
-    </Sentry.TouchEventBoundary>
-    )
+  return <Navigation routingInstrumentation={routingInstrumentation} />;
 }
 
 export default Sentry.wrap(App);

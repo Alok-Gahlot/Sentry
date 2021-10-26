@@ -25,6 +25,18 @@ export default function Home({navigation}) {
         }}
       />
       <Text>Hello Alok Gahlot</Text>
+      <Sentry.TouchEventBoundary>
+        <Button
+          title="Event Check"
+          onPress={() => {
+            try {
+              throw new Error('Event check');
+            } catch (err) {
+              Sentry.captureException('Event logged');
+            }
+          }}
+        />
+      </Sentry.TouchEventBoundary>
     </View>
   );
 }
