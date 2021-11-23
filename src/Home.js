@@ -5,11 +5,11 @@ import {StyleSheet, Text, View, Button} from 'react-native';
 import * as Sentry from '@sentry/react-native';
 
 export default function Home({navigation}) {
-  try {
-    throw new Error('Generating  new 2nd error');
-  } catch (err) {
-    Sentry.captureException('Generating error for aman ');
-  }
+  // try {
+  //   throw new Error('Generating  new 2nd error');
+  // } catch (err) {
+  //   Sentry.captureException('Generating error for aman ');
+  // }
 
   //New code
 
