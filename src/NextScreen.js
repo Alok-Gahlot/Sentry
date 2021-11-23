@@ -1,6 +1,4 @@
 import React from 'react';
-
-import * as Sentry from '@sentry/react-native';
 import {StyleSheet, Text, View, Button} from 'react-native';
 
 const nextScreenNavigation = () => {
@@ -15,6 +13,7 @@ const nextScreenNavigation = () => {
 };
 
 export default function Home({navigation}) {
+  // throw new Error('Hellooooooo');
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>Next Screen</Text>
@@ -22,7 +21,7 @@ export default function Home({navigation}) {
         title="Go to Home Screen"
         onPress={() => {
           setTimeout(() => {
-            navigation.goBack();
+            navigation.navigate('Third');
           }, 10000);
         }}
       />
