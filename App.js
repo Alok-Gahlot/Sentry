@@ -5,7 +5,7 @@ import Navigation from './src/route/Navigtion';
 function App() {
   const routingInstrumentation = new Sentry.ReactNavigationInstrumentation();
   Sentry.init({
-    dsn: 'https://0505d3aa4a9043c99031230202bf40b7@o1045193.ingest.sentry.io/6025118',
+    dsn: 'https://4ae6b042f7924b20aedde0692da85084@o1075722.ingest.sentry.io/6076559',
     environment: 'production',
     integrations: [
       new Sentry.ReactNativeTracing({
@@ -15,6 +15,12 @@ function App() {
     ],
     tracesSampleRate: 0.2,
   });
+
+  try {
+    throw new Error('Sentry check ');
+  } catch (err) {
+    Sentry.captureMessage('Sentry Check');
+  }
 
   // throw new Error('Git check');
   // throw new Error('Git check');
