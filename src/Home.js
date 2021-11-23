@@ -58,9 +58,7 @@ export default function Home({navigation}) {
       <Button
         title="Go to next Screen"
         onPress={() => {
-          setTimeout(() => {
-            navigation.navigate('NextScreen');
-          }, 3000);
+          navigation.navigate('NextScreen');
         }}
       />
       <Text>Hello Alok Gahlot</Text>

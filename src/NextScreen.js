@@ -18,11 +18,9 @@ export default function Home({navigation}) {
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>Next Screen</Text>
       <Button
-        title="Go to Home Screen"
+        title="Go to Third Screen"
         onPress={() => {
-          setTimeout(() => {
-            navigation.navigate('Third');
-          }, 10000);
+          navigation.navigate('Third');
         }}
       />
     </View>

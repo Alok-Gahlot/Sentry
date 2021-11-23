@@ -16,7 +16,7 @@ function App(props) {
       onReady={() => {
         props.routingInstrumentation.registerNavigationContainer(navigation);
       }}>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName="Onboarding">
         <Stack.Screen name="Onboarding" component={Onboarding} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="NextScreen" component={NextScreen} />

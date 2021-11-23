@@ -13,7 +13,14 @@ function App() {
         routingInstrumentation,
       }),
     ],
-    tracesSampleRate: 0.2,
+    tracesSampler: context => {
+      switch (context.transactionContext.op) {
+        case 'navigation':
+          return 1;
+        default:
+          return 1;
+      }
+    },
   });
 
   try {
