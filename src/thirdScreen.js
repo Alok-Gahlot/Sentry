@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import {View, Text, Button, FlatList, Image, StyleSheet} from 'react-native';
 import * as Sentry from '@sentry/react-native';
 const func = () => {
@@ -10,35 +9,6 @@ const func = () => {
 };
 
 const str = 'https://image.tmdb.org/t/p/original';
-
-const anotherfunc = val => {
-  return true;
-};
-const shopCheckout = () => {
-  const transaction = Sentry.startTransaction({name: 'Third screen Trans'});
-
-  Sentry.getCurrentHub().configureScope(scope => scope.setSpan(transaction));
-
-  const result = func();
-
-  const span = transaction.startChild({
-    data: {
-      result,
-    },
-    op: 'custom transac',
-    description: `processing custom transac result`,
-  });
-  try {
-    anotherfunc(result);
-    span.setStatus('Ok');
-  } catch (err) {
-    span.setStatus('err');
-    throw err;
-  } finally {
-    span.finish();
-    transaction.finish();
-  }
-};
 
 const renderItem = ({item}) => {
   return (
@@ -63,33 +33,15 @@ export default function thirdScreen({navigation}) {
       .catch(error => console.error(error));
   }, []);
   console.log(data);
-=======
-import {View, Text} from 'react-native';
-export default function thirdScreen({navigation}) {
->>>>>>> dd463db773830a5ffb5e6d6c2465fcdffb927930
+  import {View, Text} from 'react-native';
+
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>THird scren</Text>
-<<<<<<< HEAD
-
-      <Button title="check custom transac" onPress={shopCheckout} />
-      <Button
-        title="go to home screen"
-        onPress={() => {
-          navigation.navigate('Home');
-        }}
-      />
-
-      <FlatList
-        data={data}
-        renderItem={renderItem}
-        keyExtractor={(_, index) => index}
-      />
-=======
       <Text onPress={() => navigation.navigate('Fourth')}>
         Click me to navigate forth screen
       </Text>
->>>>>>> dd463db773830a5ffb5e6d6c2465fcdffb927930
+      <FlatList data={data} renderItem={renderItem} />
     </View>
   );
 }
