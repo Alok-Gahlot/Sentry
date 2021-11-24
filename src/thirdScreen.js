@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import {View, Text, Button, FlatList, Image, StyleSheet} from 'react-native';
 import * as Sentry from '@sentry/react-native';
 const func = () => {
@@ -62,9 +63,14 @@ export default function thirdScreen({navigation}) {
       .catch(error => console.error(error));
   }, []);
   console.log(data);
+=======
+import {View, Text} from 'react-native';
+export default function thirdScreen({navigation}) {
+>>>>>>> dd463db773830a5ffb5e6d6c2465fcdffb927930
   return (
-    <View>
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>THird scren</Text>
+<<<<<<< HEAD
 
       <Button title="check custom transac" onPress={shopCheckout} />
       <Button
@@ -79,6 +85,11 @@ export default function thirdScreen({navigation}) {
         renderItem={renderItem}
         keyExtractor={(_, index) => index}
       />
+=======
+      <Text onPress={() => navigation.navigate('Fourth')}>
+        Click me to navigate forth screen
+      </Text>
+>>>>>>> dd463db773830a5ffb5e6d6c2465fcdffb927930
     </View>
   );
 }
