@@ -9,6 +9,7 @@ import Home from '../Home';
 import NextScreen from '../NextScreen';
 import Onboarding from '../Onboarding';
 import Third from '../thirdScreen';
+import Fourth from '../fourth';
 const Stack = createNativeStackNavigator();
 
 const App = props => {
@@ -26,6 +27,7 @@ const App = props => {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="NextScreen" component={NextScreen} />
         <Stack.Screen name="Third" component={Third} />
+        <Stack.Screen name="Fourth" component={Fourth} />
       </Stack.Navigator>
     </NavigationContainer>
   );
