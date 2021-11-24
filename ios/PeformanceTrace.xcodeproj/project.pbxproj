@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		63715E806EB701AA33276AAD /* libPods-PeformanceTrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1450DF239AA00FDF4743DCA6 /* libPods-PeformanceTrace.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AB718A2E28A6AA7659B43A9E /* libPods-PeformanceTrace-PeformanceTraceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD60D64B9EBB2CE167DCDA6F /* libPods-PeformanceTrace-PeformanceTraceTests.a */; };
+		96728C5A5ED0E299CF84BB75 /* libPods-PeformanceTrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE4317B56E37844EF76F411 /* libPods-PeformanceTrace.a */; };
+		BAC5F7E35920164121DBB61B /* libPods-PeformanceTrace-PeformanceTraceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF671F2E90A18DC3B5DC828 /* libPods-PeformanceTrace-PeformanceTraceTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PeformanceTrace/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PeformanceTrace/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PeformanceTrace/main.m; sourceTree = "<group>"; };
-		1450DF239AA00FDF4743DCA6 /* libPods-PeformanceTrace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeformanceTrace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C88CEAC7C43FB6B263AA37A /* Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig"; sourceTree = "<group>"; };
-		75E610E458F685A3C7D3219E /* Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC1AE32B0357E54A2B76E74 /* Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig"; sourceTree = "<group>"; };
+		78E81C5ECC4413AA121B1C6C /* Pods-PeformanceTrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace.debug.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace.debug.xcconfig"; sourceTree = "<group>"; };
+		7CAE8F35C3CB6235A0A1DE9F /* Pods-PeformanceTrace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace.release.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PeformanceTrace/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84CF40C73F07540CF46FCD7D /* Pods-PeformanceTrace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace.release.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace.release.xcconfig"; sourceTree = "<group>"; };
-		BD60D64B9EBB2CE167DCDA6F /* libPods-PeformanceTrace-PeformanceTraceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeformanceTrace-PeformanceTraceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE4317B56E37844EF76F411 /* libPods-PeformanceTrace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeformanceTrace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF671F2E90A18DC3B5DC828 /* libPods-PeformanceTrace-PeformanceTraceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeformanceTrace-PeformanceTraceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F42001D350B1B8FD19A43316 /* Pods-PeformanceTrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace.debug.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2353E21509EC0F006F0155 /* Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig"; path = "Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB718A2E28A6AA7659B43A9E /* libPods-PeformanceTrace-PeformanceTraceTests.a in Frameworks */,
+				BAC5F7E35920164121DBB61B /* libPods-PeformanceTrace-PeformanceTraceTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63715E806EB701AA33276AAD /* libPods-PeformanceTrace.a in Frameworks */,
+				96728C5A5ED0E299CF84BB75 /* libPods-PeformanceTrace.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1450DF239AA00FDF4743DCA6 /* libPods-PeformanceTrace.a */,
-				BD60D64B9EBB2CE167DCDA6F /* libPods-PeformanceTrace-PeformanceTraceTests.a */,
+				ACE4317B56E37844EF76F411 /* libPods-PeformanceTrace.a */,
+				BAF671F2E90A18DC3B5DC828 /* libPods-PeformanceTrace-PeformanceTraceTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4B21149FAC00FD69E1D5D0A6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F42001D350B1B8FD19A43316 /* Pods-PeformanceTrace.debug.xcconfig */,
-				84CF40C73F07540CF46FCD7D /* Pods-PeformanceTrace.release.xcconfig */,
-				75E610E458F685A3C7D3219E /* Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig */,
-				2C88CEAC7C43FB6B263AA37A /* Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -133,7 +121,7 @@
 				00E356EF1AD99517003FC87E /* PeformanceTraceTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				4B21149FAC00FD69E1D5D0A6 /* Pods */,
+				F0AAA8F7729D3AF27B6CD56F /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +137,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F0AAA8F7729D3AF27B6CD56F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E81C5ECC4413AA121B1C6C /* Pods-PeformanceTrace.debug.xcconfig */,
+				7CAE8F35C3CB6235A0A1DE9F /* Pods-PeformanceTrace.release.xcconfig */,
+				FC2353E21509EC0F006F0155 /* Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig */,
+				3EC1AE32B0357E54A2B76E74 /* Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PeformanceTraceTests" */;
 			buildPhases = (
-				7DB75A1A2B4973F123B2FD1D /* [CP] Check Pods Manifest.lock */,
+				41D32721CF1FFE2D76A2153E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				6B254A7032C60505352DD2AB /* [CP] Embed Pods Frameworks */,
-				8F2D5719DE7D8773540C34FF /* [CP] Copy Pods Resources */,
+				F69CB23AC3F52E1006B336EB /* [CP] Embed Pods Frameworks */,
+				452AEB2E64B064B17D42CFCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,15 +177,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PeformanceTrace" */;
 			buildPhases = (
-				A750C8F8452BCF7F1D716C64 /* [CP] Check Pods Manifest.lock */,
+				36774EA6A555E81F8041D55C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2D459F0692CA08B7132FC21C /* [CP] Embed Pods Frameworks */,
-				2EADAC402E50E5AF94A0EB29 /* [CP] Copy Pods Resources */,
 				02BE68DC89C64F15B9FCEE76 /* Upload Debug Symbols to Sentry */,
+				A1A9BD2A484273EB7DA9AFF4 /* [CP] Embed Pods Frameworks */,
+				28E9A403F2DCEBCC805E0319 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,24 +280,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export SENTRY_PROPERTIES=sentry.properties\n../node_modules/@sentry/cli/bin/sentry-cli upload-dsym";
 		};
-		2D459F0692CA08B7132FC21C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2EADAC402E50E5AF94A0EB29 /* [CP] Copy Pods Resources */ = {
+		28E9A403F2DCEBCC805E0319 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,24 +297,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B254A7032C60505352DD2AB /* [CP] Embed Pods Frameworks */ = {
+		36774EA6A555E81F8041D55C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeformanceTrace-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7DB75A1A2B4973F123B2FD1D /* [CP] Check Pods Manifest.lock */ = {
+		41D32721CF1FFE2D76A2153E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,7 +341,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8F2D5719DE7D8773540C34FF /* [CP] Copy Pods Resources */ = {
+		452AEB2E64B064B17D42CFCD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,26 +358,38 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A750C8F8452BCF7F1D716C64 /* [CP] Check Pods Manifest.lock */ = {
+		A1A9BD2A484273EB7DA9AFF4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PeformanceTrace-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace/Pods-PeformanceTrace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69CB23AC3F52E1006B336EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeformanceTrace-PeformanceTraceTests/Pods-PeformanceTrace-PeformanceTraceTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -444,7 +444,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E610E458F685A3C7D3219E /* Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig */;
+			baseConfigurationReference = FC2353E21509EC0F006F0155 /* Pods-PeformanceTrace-PeformanceTraceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -471,7 +471,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C88CEAC7C43FB6B263AA37A /* Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig */;
+			baseConfigurationReference = 3EC1AE32B0357E54A2B76E74 /* Pods-PeformanceTrace-PeformanceTraceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -495,7 +495,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F42001D350B1B8FD19A43316 /* Pods-PeformanceTrace.debug.xcconfig */;
+			baseConfigurationReference = 78E81C5ECC4413AA121B1C6C /* Pods-PeformanceTrace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -521,7 +521,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84CF40C73F07540CF46FCD7D /* Pods-PeformanceTrace.release.xcconfig */;
+			baseConfigurationReference = 7CAE8F35C3CB6235A0A1DE9F /* Pods-PeformanceTrace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
