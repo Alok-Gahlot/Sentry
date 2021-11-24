@@ -1,12 +1,6 @@
 import React from 'react';
 import {View, Text, Button, FlatList, Image, StyleSheet} from 'react-native';
 import * as Sentry from '@sentry/react-native';
-const func = () => {
-  console.log('third');
-  setTimeout(() => {
-    return 100;
-  }, 3000);
-};
 
 const str = 'https://image.tmdb.org/t/p/original';
 
@@ -17,6 +11,7 @@ const renderItem = ({item}) => {
       source={{uri: str.concat(item.poster_path)}}
       resizeMode="center"
     />
+    // <Text>Hii</Text>
   );
 };
 
@@ -32,11 +27,9 @@ export default function thirdScreen({navigation}) {
       })
       .catch(error => console.error(error));
   }, []);
-  console.log(data);
-  import {View, Text} from 'react-native';
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View>
       <Text>THird scren</Text>
       <Text onPress={() => navigation.navigate('Fourth')}>
         Click me to navigate forth screen
